@@ -1,7 +1,6 @@
 import cn from 'classnames';
-import style from './Container.module.scss'
-console.log(style)
+import s from './Container.module.scss'
 
-export const Container = (props) => (
-	<div className={cn('container', props.className)}>{props.children}</div>
+export const Container = ({ className, children}) => (
+	<div className={cn(s.container, className)}>{children}</div>
 )
