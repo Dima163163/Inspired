@@ -8,13 +8,13 @@ export const Footer = ({list}) => (
 		<Container>
 			<div className={s.container}>
 				<div className={s.category}>
-					<h2 className={cn(s.title, s.categoryTitle)}>Каталог</h2>
+					<h3 className={cn(s.title, s.categoryTitle)}>Каталог</h3>
 					<ul className={s.categoryList}>
 						{list.map(item => (
 							<li key={item.link} className={s.categoryItem}>
-								<h3 className={s.categorySubtitle}>
+								<h4 className={s.categorySubtitle}>
 									<NavLink to={item.link} className={s.link}>{item.title}</NavLink>
-								</h3>
+								</h4>
 								<ul className={s.categorySublist}>
 									{item.categories.map(category => (
 										<li key={category.link}>
