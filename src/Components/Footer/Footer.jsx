@@ -4,7 +4,7 @@ import s from './Footer.module.scss';
 import { NavLink } from 'react-router-dom';
 
 export const Footer = ({list}) => (
-	<div>
+	<footer>
 		<Container>
 			<div className={s.container}>
 				<div className={s.category}>
@@ -69,5 +69,5 @@ export const Footer = ({list}) => (
 				</div>
 			</div>
 		</Container>
-	</div>
+	</footer>
 )
