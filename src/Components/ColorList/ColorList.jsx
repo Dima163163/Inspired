@@ -8,7 +8,7 @@ export const ColorList = ({ colors }) => {
 	console.log(colorList);
 
 	return (
-		<ul className={s.ColorList}>
+		<ul className={s.colorList}>
 			{colors.map((id,i) => {
 				const color = colorList.find(color => color.id === id);
 				return <Color key={id} color={color?.code} check={!i} />
