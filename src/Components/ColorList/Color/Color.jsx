@@ -1,4 +1,3 @@
-
 import s from '../Color/Color.module.scss'
 
 export const Color = ({ color, check }) => {
@@ -7,8 +6,6 @@ export const Color = ({ color, check }) => {
 	}
 
 	return (
-		<li className={s.color} style={container} checked={check}>
-			
-		</li>
+		<li className={s.color} style={container}></li>
 	)
 }
