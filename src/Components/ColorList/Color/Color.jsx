@@ -1,8 +1,9 @@
-import s from '../Color/Color.module.scss'
+import s from '../Color/Color.module.scss';
+import cn from 'classnames';
 
 export const Color = ({ color, check }) => {
 
 	return (
-		<li className={s.color} style={{'--data-color' : color}}></li>
+		<li className={cn(s.color, check && s.colorCheck)} style={{'--data-color' : color}}></li>
 	)
 }
