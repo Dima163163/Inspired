@@ -3,7 +3,6 @@ import cn from 'classnames';
 import { useSelector } from 'react-redux';
 import { NavLink} from 'react-router-dom';
 
-
 export const Gender = () => {
 	const {activeGender, genderList, categories} = useSelector(state => state.navigation)
 
