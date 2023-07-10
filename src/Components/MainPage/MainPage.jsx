@@ -31,7 +31,7 @@ export const MainPage = () => {
 
 	return (
 		<>
-			<Banner data={genderData?.banner} />
+			{!category && <Banner data={genderData?.banner} />}
 			<Goods categoryData={genderData?.list.find(item => item.slug === category)} />
 		</>
 	)
