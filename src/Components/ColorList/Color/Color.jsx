@@ -11,5 +11,5 @@ export const Color = ({ color, check }) => {
 
 	return (
 		<li ref={colorRef} className={cn(s.color, check && s.colorCheck)} />
-	)
-}
+	);
+};

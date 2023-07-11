@@ -20,7 +20,7 @@ export const Category = () => {
 						</li>
 					))}
 			</ul>
-	)	
-}
+	);
+};
 
 

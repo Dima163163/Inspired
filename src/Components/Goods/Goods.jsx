@@ -1,6 +1,6 @@
-import { Container } from "../Components/Layout/Container/Container";
+import { Container } from "../Layout/Container/Container";
 import { useSelector } from "react-redux";
-import { Product } from "../Components/Product/Product";
+import { Product } from "../Product/Product";
 import s from './Goods.module.scss';
 
 export const Goods = ({ categoryData }) => {
@@ -21,5 +21,5 @@ export const Goods = ({ categoryData }) => {
 				</ul>
 			</Container>
 		</section>
-	)
-}
+	);
+};

@@ -5,10 +5,10 @@ import { Footer } from "../Components/Footer/Footer";
 
 export const Root = () => (
 	<>
-		<Header/>
+		<Header />
 		<Main>
 			<Outlet />
 		</Main>
 		<Footer />
 	</>
-)
+);
