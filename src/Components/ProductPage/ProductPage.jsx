@@ -57,6 +57,7 @@ export const ProductPage = () => {
 						handleColorChange={handleColorChange}
 						/>
 					</div>
+					
 					<ProductSize size={product.size} />
 					<div className={s.description}>
 						<p className={cn(s.subtitle, s.descriptionTitle)}>Описание</p>
