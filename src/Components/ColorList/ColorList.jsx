@@ -6,6 +6,7 @@ import { ColorLabel } from './ColorLabel/ColorLabel';
 export const ColorList = ({ colors, selectedColor, handleColorChange }) => {
 	const { colorList } = useSelector(state => state.color);
 
+
 	return handleColorChange ? (
 		<div className={s.colorList}>
 			{colors?.map((id, i) => {
