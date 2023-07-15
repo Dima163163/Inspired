@@ -17,7 +17,6 @@ export const CartPage = () => {
 		}
 	}, [cartItems, count, countItems, dispatch])
 
-
 	return (
 		<>
 			<Cart cartItems={cartItems} goodsList={goodsList} />
